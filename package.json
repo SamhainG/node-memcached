@@ -1,0 +1,32 @@
+{
+  "name": "node-memcached",
+  "version": "1.0.0",
+  "description": "Memcache service interface with integrated config module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+     "config": "0.4.x",
+     "memcached": "*"
+  },
+  "directories": {
+     "lib": "./lib",
+     "config": "./config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SamhainG/node-memcached"
+  },
+  "keywords": [
+    "nodejs",
+    "memcached",
+    "config"
+  ],
+  "author": "sam",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/SamhainG/node-memcached/issues"
+  },
+  "homepage": "https://github.com/SamhainG/node-memcached"
+}
